@@ -1,0 +1,18 @@
+{
+  "name": "convergence",
+  "version": "1.0.0",
+  "description": "This is The Convergence Team web-page",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "Pushp Raj",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "font-awesome": "^4.7.0",
+    "lite-server": "^2.6.1"
+  }
+}
