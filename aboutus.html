@@ -8,8 +8,19 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="load.css">
     </head>
-    <body>
+    <body onload="load()">
+        <!--pre-Loader-->
+        <div id="loading">
+            <div id="load1"></div>
+            <div id="load2"></div>
+            <div id="load3"></div>
+        
+            <div id="load4"></div>
+        
+            <div id="load5"></div>
+            </div>
         <!--navbar-->
         <nav class="navbar navbar-expand-md bg-color navbar-light">
             <div class="container-md">
@@ -187,4 +198,10 @@
         </footer>
     </body>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        function load(){
+            var ld= document.getElementById("loading");
+            ld.style.display="none";
+        }
+    </script>
 </html>
